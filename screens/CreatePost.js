@@ -60,13 +60,13 @@ export default class CreatePost extends Component {
                         <View style={{ height: RFValue(this.state.dropdownHeight) }}>
                             <DropDownPicker
                                 items={[
-                                    { label: "Image 1", value: "image_1" },
-                                    { label: "Image 2", value: "image_2" },
-                                    { label: "Image 3", value: "image_3" },
-                                    { label: "Image 4", value: "image_4" },
-                                    { label: "Image 5", value: "image_5" },
-                                    { label: "Image 6", value: "image_6" },
-                                    { label: "Image 7", value: "image_7" }
+                                    { label: "Imagem 1", value: "image_1" },
+                                    { label: "Imagem 2", value: "image_2" },
+                                    { label: "Imagem 3", value: "image_3" },
+                                    { label: "Imagem 4", value: "image_4" },
+                                    { label: "Imagem 5", value: "image_5" },
+                                    { label: "Imagem 6", value: "image_6" },
+                                    { label: "Imagem 7", value: "image_7" }
                                 ]}
                                 defaultValue={this.state.previewImage}
                                 containerStyle={{
